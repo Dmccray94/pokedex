@@ -1,0 +1,3 @@
+import requests
+response = requests.get ("https://pokeapi.co/api/v2/pokemon/ditto")
+response.status_code
